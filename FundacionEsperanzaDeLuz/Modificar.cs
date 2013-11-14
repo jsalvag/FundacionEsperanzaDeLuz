@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace FundacionEsperanzaDeLuz
 {
-    public partial class Registro : Form
+    public partial class Modificar : Form
     {
-        public Registro()
+        public Modificar()
         {
             InitializeComponent();
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void registrar_btn_Click(object sender, EventArgs e)

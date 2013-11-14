@@ -13,6 +13,8 @@ namespace FundacionEsperanzaDeLuz
     public partial class Inicio : Form
     {
         Registro ventanareg = new Registro();
+        Modificar ventanamod = new Modificar();
+        ExamenRutinario ventanaExa = new ExamenRutinario();
         public Inicio()
         {
             InitializeComponent();
@@ -50,6 +52,56 @@ namespace FundacionEsperanzaDeLuz
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void crearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            crearHistoria ch = new crearHistoria();
+            ch.ShowDialog();
+        }
+
+        private void modificarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ventanamod.panel1.Visible = true;
+            ventanamod.panel2.Visible = false;
+            ventanamod.dLabor_btn.Visible = false;
+            ventanamod.ShowDialog();
+        }
+
+        private void modificarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            ventanamod.panel1.Visible = false;
+            ventanamod.panel2.Visible = true;
+            ventanamod.dLabor_btn.Visible = false;
+            ventanamod.ShowDialog();
+        }
+
+        private void modificarToolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            ventanamod.panel1.Visible = false;
+            ventanamod.panel2.Visible = false;
+            ventanamod.dLabor_btn.Visible = true;
+            ventanamod.ShowDialog();
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void evaluaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ingresarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ventanaExa.ShowDialog();
         }
     }
 }

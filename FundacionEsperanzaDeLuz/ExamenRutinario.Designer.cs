@@ -110,6 +110,8 @@
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
             this.guardarExamenRutina_btn = new System.Windows.Forms.Button();
+            this.label36 = new System.Windows.Forms.Label();
+            this.fecha_lbl = new System.Windows.Forms.Label();
             this.tabaco_panel.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -184,7 +186,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(152, 37);
+            this.label4.Location = new System.Drawing.Point(152, 50);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(227, 24);
             this.label4.TabIndex = 0;
@@ -994,11 +996,36 @@
             this.guardarExamenRutina_btn.UseVisualStyleBackColor = true;
             this.guardarExamenRutina_btn.Click += new System.EventHandler(this.guardarExamenRutina_btn_Click);
             // 
+            // label36
+            // 
+            this.label36.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(316, 26);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(58, 20);
+            this.label36.TabIndex = 34;
+            this.label36.Text = "Fecha:";
+            this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // fecha_lbl
+            // 
+            this.fecha_lbl.AutoSize = true;
+            this.fecha_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fecha_lbl.Location = new System.Drawing.Point(398, 26);
+            this.fecha_lbl.Name = "fecha_lbl";
+            this.fecha_lbl.Size = new System.Drawing.Size(91, 20);
+            this.fecha_lbl.TabIndex = 35;
+            this.fecha_lbl.Text = "00-00-0000";
+            this.fecha_lbl.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // ExamenRutinario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(499, 461);
+            this.Controls.Add(this.fecha_lbl);
+            this.Controls.Add(this.label36);
             this.Controls.Add(this.guardarExamenRutina_btn);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel5);
@@ -1071,6 +1098,7 @@
             this.Name = "ExamenRutinario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Examen Rutinario";
+            this.Load += new System.EventHandler(this.ExamenRutinario_Load);
             this.tabaco_panel.ResumeLayout(false);
             this.tabaco_panel.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -1174,5 +1202,7 @@
         private System.Windows.Forms.RadioButton radioButton11;
         private System.Windows.Forms.RadioButton radioButton12;
         private System.Windows.Forms.Button guardarExamenRutina_btn;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label fecha_lbl;
     }
 }

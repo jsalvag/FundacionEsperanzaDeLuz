@@ -15,6 +15,7 @@ namespace FundacionEsperanzaDeLuz
         public ExamenRutinario()
         {
             InitializeComponent();
+            fecha_lbl.Text = DateTime.Now.ToShortDateString();
         }
 
         private void label18_Click(object sender, EventArgs e)
@@ -40,6 +41,11 @@ namespace FundacionEsperanzaDeLuz
         private void guardarExamenRutina_btn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void ExamenRutinario_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

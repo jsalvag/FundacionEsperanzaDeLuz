@@ -308,7 +308,7 @@
             this.tabaco_panel.Location = new System.Drawing.Point(89, 259);
             this.tabaco_panel.Name = "tabaco_panel";
             this.tabaco_panel.Size = new System.Drawing.Size(168, 26);
-            this.tabaco_panel.TabIndex = 8;
+            this.tabaco_panel.TabIndex = 9;
             // 
             // tabaco_N_rdo
             // 
@@ -341,7 +341,7 @@
             this.cigarro_panel.Location = new System.Drawing.Point(89, 286);
             this.cigarro_panel.Name = "cigarro_panel";
             this.cigarro_panel.Size = new System.Drawing.Size(168, 26);
-            this.cigarro_panel.TabIndex = 9;
+            this.cigarro_panel.TabIndex = 10;
             // 
             // cigarro_N_rdo
             // 
@@ -374,7 +374,7 @@
             this.cafe_panel.Location = new System.Drawing.Point(89, 313);
             this.cafe_panel.Name = "cafe_panel";
             this.cafe_panel.Size = new System.Drawing.Size(168, 26);
-            this.cafe_panel.TabIndex = 10;
+            this.cafe_panel.TabIndex = 11;
             // 
             // cafe_N_rdo
             // 
@@ -407,7 +407,7 @@
             this.alcohol_panel.Location = new System.Drawing.Point(89, 340);
             this.alcohol_panel.Name = "alcohol_panel";
             this.alcohol_panel.Size = new System.Drawing.Size(168, 26);
-            this.alcohol_panel.TabIndex = 11;
+            this.alcohol_panel.TabIndex = 12;
             // 
             // alcohol_N_rdo
             // 
@@ -440,7 +440,7 @@
             this.drogas_panel.Location = new System.Drawing.Point(89, 367);
             this.drogas_panel.Name = "drogas_panel";
             this.drogas_panel.Size = new System.Drawing.Size(168, 26);
-            this.drogas_panel.TabIndex = 12;
+            this.drogas_panel.TabIndex = 13;
             // 
             // droga_N_rdo
             // 
@@ -473,7 +473,7 @@
             this.sedent_panel.Location = new System.Drawing.Point(89, 394);
             this.sedent_panel.Name = "sedent_panel";
             this.sedent_panel.Size = new System.Drawing.Size(168, 26);
-            this.sedent_panel.TabIndex = 13;
+            this.sedent_panel.TabIndex = 14;
             // 
             // sedent_N_rdo
             // 
@@ -506,7 +506,7 @@
             this.estres_panel.Location = new System.Drawing.Point(89, 421);
             this.estres_panel.Name = "estres_panel";
             this.estres_panel.Size = new System.Drawing.Size(168, 26);
-            this.estres_panel.TabIndex = 14;
+            this.estres_panel.TabIndex = 15;
             // 
             // estres_N_rdo
             // 
@@ -540,7 +540,7 @@
             this.label1.Location = new System.Drawing.Point(263, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(67, 20);
-            this.label1.TabIndex = 66;
+            this.label1.TabIndex = 0;
             this.label1.Text = "Código: ";
             // 
             // label3
@@ -550,7 +550,7 @@
             this.label3.Location = new System.Drawing.Point(336, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(90, 20);
-            this.label3.TabIndex = 67;
+            this.label3.TabIndex = 0;
             this.label3.Text = "000000000";
             // 
             // groupBox1
@@ -559,7 +559,7 @@
             this.groupBox1.Location = new System.Drawing.Point(263, 130);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(209, 72);
-            this.groupBox1.TabIndex = 15;
+            this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Evaluaciones Físicas Anteriores";
             // 
@@ -579,7 +579,7 @@
             this.groupBox2.Location = new System.Drawing.Point(263, 203);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(209, 72);
-            this.groupBox2.TabIndex = 16;
+            this.groupBox2.TabIndex = 20;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Evaluaciones Psíquicas Anteriores";
             // 
@@ -599,7 +599,7 @@
             this.groupBox3.Location = new System.Drawing.Point(263, 276);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(209, 72);
-            this.groupBox3.TabIndex = 17;
+            this.groupBox3.TabIndex = 21;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Otras Notas";
             // 
@@ -619,7 +619,7 @@
             this.registrarHitoria_btn.Location = new System.Drawing.Point(322, 418);
             this.registrarHitoria_btn.Name = "registrarHitoria_btn";
             this.registrarHitoria_btn.Size = new System.Drawing.Size(104, 28);
-            this.registrarHitoria_btn.TabIndex = 18;
+            this.registrarHitoria_btn.TabIndex = 22;
             this.registrarHitoria_btn.Text = "Guardar";
             this.registrarHitoria_btn.UseVisualStyleBackColor = true;
             this.registrarHitoria_btn.Click += new System.EventHandler(this.registrarHitoria_btn_Click);
@@ -631,7 +631,7 @@
             this.textBox10.Multiline = true;
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(168, 26);
-            this.textBox10.TabIndex = 68;
+            this.textBox10.TabIndex = 8;
             // 
             // label4
             // 
@@ -639,7 +639,7 @@
             this.label4.Location = new System.Drawing.Point(16, 232);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(67, 26);
-            this.label4.TabIndex = 69;
+            this.label4.TabIndex = 0;
             this.label4.Text = "Regularidad\r\nEvacuatória:";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
@@ -650,7 +650,7 @@
             this.textBox11.Multiline = true;
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(159, 26);
-            this.textBox11.TabIndex = 71;
+            this.textBox11.TabIndex = 16;
             // 
             // label11
             // 
@@ -658,7 +658,7 @@
             this.label11.Location = new System.Drawing.Point(264, 49);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(43, 13);
-            this.label11.TabIndex = 70;
+            this.label11.TabIndex = 0;
             this.label11.Text = "Apetito:";
             // 
             // textBox12
@@ -668,7 +668,7 @@
             this.textBox12.Multiline = true;
             this.textBox12.Name = "textBox12";
             this.textBox12.Size = new System.Drawing.Size(159, 26);
-            this.textBox12.TabIndex = 73;
+            this.textBox12.TabIndex = 17;
             // 
             // label18
             // 
@@ -676,7 +676,7 @@
             this.label18.Location = new System.Drawing.Point(266, 76);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(41, 13);
-            this.label18.TabIndex = 72;
+            this.label18.TabIndex = 0;
             this.label18.Text = "Sueño:";
             // 
             // textBox13
@@ -686,7 +686,7 @@
             this.textBox13.Multiline = true;
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(159, 26);
-            this.textBox13.TabIndex = 75;
+            this.textBox13.TabIndex = 18;
             // 
             // label20
             // 
@@ -694,7 +694,7 @@
             this.label20.Location = new System.Drawing.Point(260, 103);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(47, 13);
-            this.label20.TabIndex = 74;
+            this.label20.TabIndex = 0;
             this.label20.Text = "Diuresis:";
             // 
             // crearHistoria

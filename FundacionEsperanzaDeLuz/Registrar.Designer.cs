@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.representa_cbx = new System.Windows.Forms.ComboBox();
             this.tlf_ofi = new System.Windows.Forms.TextBox();
             this.dir_ofi = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -70,7 +70,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.representa_cbx);
             this.panel2.Controls.Add(this.tlf_ofi);
             this.panel2.Controls.Add(this.dir_ofi);
             this.panel2.Controls.Add(this.label13);
@@ -82,14 +82,14 @@
             this.panel2.TabIndex = 30;
             this.panel2.Visible = false;
             // 
-            // comboBox1
+            // representa_cbx
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(125, 58);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(130, 28);
-            this.comboBox1.TabIndex = 19;
+            this.representa_cbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.representa_cbx.FormattingEnabled = true;
+            this.representa_cbx.Location = new System.Drawing.Point(125, 58);
+            this.representa_cbx.Name = "representa_cbx";
+            this.representa_cbx.Size = new System.Drawing.Size(130, 28);
+            this.representa_cbx.TabIndex = 19;
             // 
             // tlf_ofi
             // 
@@ -147,6 +147,7 @@
             this.registrar_btn.TabIndex = 32;
             this.registrar_btn.Text = "Registrar";
             this.registrar_btn.UseVisualStyleBackColor = true;
+            this.registrar_btn.Click += new System.EventHandler(this.registrar_btn_Click);
             // 
             // tlfM_txt
             // 
@@ -394,6 +395,7 @@
             this.dLabor_btn.Text = "Datos Laborales";
             this.dLabor_btn.UseVisualStyleBackColor = true;
             this.dLabor_btn.Visible = false;
+            this.dLabor_btn.Click += new System.EventHandler(this.dLabor_btn_Click);
             // 
             // Registrar
             // 
@@ -423,8 +425,11 @@
             this.Controls.Add(this.ci_txt);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dLabor_btn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Registrar";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Registrar";
+            this.Load += new System.EventHandler(this.Registrar_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -439,7 +444,7 @@
         #endregion
 
         public System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox representa_cbx;
         private System.Windows.Forms.TextBox tlf_ofi;
         private System.Windows.Forms.TextBox dir_ofi;
         private System.Windows.Forms.Label label13;

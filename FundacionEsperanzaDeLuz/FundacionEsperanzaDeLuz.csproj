@@ -44,12 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Copia de Registro.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Copia de Registro.Designer.cs">
-      <DependentUpon>Copia de Registro.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Clases.cs" />
     <Compile Include="DatosLaborales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,11 +57,23 @@
     <Compile Include="CrearHistoria.Designer.cs">
       <DependentUpon>CrearHistoria.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExamenLab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExamenLab.Designer.cs">
+      <DependentUpon>ExamenLab.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExamenRutinario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ExamenRutinario.Designer.cs">
       <DependentUpon>ExamenRutinario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Notas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notas.Designer.cs">
+      <DependentUpon>Notas.cs</DependentUpon>
     </Compile>
     <Compile Include="Modificar.cs">
       <SubType>Form</SubType>
@@ -94,20 +101,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Copia de Registro.resx">
-      <DependentUpon>Copia de Registro.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="RegistrarLaboratorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarLaboratorio.Designer.cs">
+      <DependentUpon>RegistrarLaboratorio.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CrearHistoria.resx">
       <DependentUpon>CrearHistoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DatosLaborales.resx">
       <DependentUpon>DatosLaborales.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ExamenLab.resx">
+      <DependentUpon>ExamenLab.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExamenRutinario.resx">
       <DependentUpon>ExamenRutinario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Modificar.resx">
       <DependentUpon>Modificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notas.resx">
+      <DependentUpon>Notas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Registrar.resx">
       <DependentUpon>Registrar.cs</DependentUpon>
@@ -127,6 +143,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RegistrarLaboratorio.resx">
+      <DependentUpon>RegistrarLaboratorio.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

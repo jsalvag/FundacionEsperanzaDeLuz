@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.representa_cbx = new System.Windows.Forms.ComboBox();
             this.tlf_ofi = new System.Windows.Forms.TextBox();
             this.dir_ofi = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -61,7 +61,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dLabor_btn = new System.Windows.Forms.Button();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.ci_cbx = new System.Windows.Forms.ComboBox();
             this.sexo_panel = new System.Windows.Forms.Panel();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -72,7 +72,7 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.comboBox1);
+            this.panel2.Controls.Add(this.representa_cbx);
             this.panel2.Controls.Add(this.tlf_ofi);
             this.panel2.Controls.Add(this.dir_ofi);
             this.panel2.Controls.Add(this.label13);
@@ -84,14 +84,14 @@
             this.panel2.TabIndex = 13;
             this.panel2.Visible = false;
             // 
-            // comboBox1
+            // representa_cbx
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(126, 58);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(129, 28);
-            this.comboBox1.TabIndex = 16;
+            this.representa_cbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.representa_cbx.FormattingEnabled = true;
+            this.representa_cbx.Location = new System.Drawing.Point(126, 58);
+            this.representa_cbx.Name = "representa_cbx";
+            this.representa_cbx.Size = new System.Drawing.Size(129, 28);
+            this.representa_cbx.TabIndex = 16;
             // 
             // tlf_ofi
             // 
@@ -391,16 +391,17 @@
             this.dLabor_btn.Text = "Datos Laborales";
             this.dLabor_btn.UseVisualStyleBackColor = true;
             this.dLabor_btn.Visible = false;
+            this.dLabor_btn.Click += new System.EventHandler(this.dLabor_btn_Click);
             // 
-            // comboBox2
+            // ci_cbx
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(131, 5);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(3, 1, 1, 1);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(129, 26);
-            this.comboBox2.TabIndex = 1;
+            this.ci_cbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ci_cbx.FormattingEnabled = true;
+            this.ci_cbx.Location = new System.Drawing.Point(131, 5);
+            this.ci_cbx.Margin = new System.Windows.Forms.Padding(3, 1, 1, 1);
+            this.ci_cbx.Name = "ci_cbx";
+            this.ci_cbx.Size = new System.Drawing.Size(129, 26);
+            this.ci_cbx.TabIndex = 1;
             // 
             // sexo_panel
             // 
@@ -417,7 +418,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(264, 375);
             this.Controls.Add(this.sexo_panel);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.ci_cbx);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.registrar_btn);
             this.Controls.Add(this.tlfM_txt);
@@ -438,6 +439,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dLabor_btn);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Modificar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Modificar";
@@ -457,7 +459,7 @@
         #endregion
 
         public System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox representa_cbx;
         private System.Windows.Forms.TextBox tlf_ofi;
         private System.Windows.Forms.TextBox dir_ofi;
         private System.Windows.Forms.Label label13;
@@ -489,7 +491,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.Button dLabor_btn;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox ci_cbx;
         private System.Windows.Forms.Panel sexo_panel;
     }
 }

@@ -48,15 +48,21 @@
             this.buscarToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.imprimirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.evaluaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ingresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.examenDeLaboratotioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ingresarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.laboratoriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.registrarToolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.buscarToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarToolStripMenuItem5 = new System.Windows.Forms.ToolStripMenuItem();
             this.eliminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.evaluaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.examenDeLaboratotioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ingresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.libroDiarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verNotasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -84,7 +90,8 @@
             this.pacientesToolStripMenuItem,
             this.historiaToolStripMenuItem,
             this.toolStripMenuItem1,
-            this.laboratoriosToolStripMenuItem});
+            this.laboratoriosToolStripMenuItem,
+            this.libroDiarioToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(684, 24);
@@ -130,14 +137,14 @@
             // registrarToolStripMenuItem1
             // 
             this.registrarToolStripMenuItem1.Name = "registrarToolStripMenuItem1";
-            this.registrarToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.registrarToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
             this.registrarToolStripMenuItem1.Text = "Registrar";
             this.registrarToolStripMenuItem1.Click += new System.EventHandler(this.registrarToolStripMenuItem1_Click);
             // 
             // modificarToolStripMenuItem1
             // 
             this.modificarToolStripMenuItem1.Name = "modificarToolStripMenuItem1";
-            this.modificarToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.modificarToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
             this.modificarToolStripMenuItem1.Text = "Modificar";
             this.modificarToolStripMenuItem1.Click += new System.EventHandler(this.modificarToolStripMenuItem1_Click);
             // 
@@ -153,14 +160,14 @@
             // registrarToolStripMenuItem2
             // 
             this.registrarToolStripMenuItem2.Name = "registrarToolStripMenuItem2";
-            this.registrarToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.registrarToolStripMenuItem2.Size = new System.Drawing.Size(125, 22);
             this.registrarToolStripMenuItem2.Text = "Registrar";
             this.registrarToolStripMenuItem2.Click += new System.EventHandler(this.registrarToolStripMenuItem2_Click);
             // 
             // modificarToolStripMenuItem2
             // 
             this.modificarToolStripMenuItem2.Name = "modificarToolStripMenuItem2";
-            this.modificarToolStripMenuItem2.Size = new System.Drawing.Size(152, 22);
+            this.modificarToolStripMenuItem2.Size = new System.Drawing.Size(125, 22);
             this.modificarToolStripMenuItem2.Text = "Modificar";
             this.modificarToolStripMenuItem2.Click += new System.EventHandler(this.modificarToolStripMenuItem2_Click);
             // 
@@ -176,14 +183,14 @@
             // registrarToolStripMenuItem3
             // 
             this.registrarToolStripMenuItem3.Name = "registrarToolStripMenuItem3";
-            this.registrarToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.registrarToolStripMenuItem3.Size = new System.Drawing.Size(125, 22);
             this.registrarToolStripMenuItem3.Text = "Registrar";
             this.registrarToolStripMenuItem3.Click += new System.EventHandler(this.registrarToolStripMenuItem3_Click);
             // 
             // modificarToolStripMenuItem3
             // 
             this.modificarToolStripMenuItem3.Name = "modificarToolStripMenuItem3";
-            this.modificarToolStripMenuItem3.Size = new System.Drawing.Size(152, 22);
+            this.modificarToolStripMenuItem3.Size = new System.Drawing.Size(125, 22);
             this.modificarToolStripMenuItem3.Text = "Modificar";
             this.modificarToolStripMenuItem3.Click += new System.EventHandler(this.modificarToolStripMenuItem3_Click);
             // 
@@ -201,27 +208,82 @@
             // crearToolStripMenuItem
             // 
             this.crearToolStripMenuItem.Name = "crearToolStripMenuItem";
-            this.crearToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.crearToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.crearToolStripMenuItem.Text = "Crear";
             this.crearToolStripMenuItem.Click += new System.EventHandler(this.crearToolStripMenuItem_Click);
             // 
             // buscarToolStripMenuItem4
             // 
             this.buscarToolStripMenuItem4.Name = "buscarToolStripMenuItem4";
-            this.buscarToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.buscarToolStripMenuItem4.Size = new System.Drawing.Size(125, 22);
             this.buscarToolStripMenuItem4.Text = "Buscar";
             // 
             // modificarToolStripMenuItem4
             // 
             this.modificarToolStripMenuItem4.Name = "modificarToolStripMenuItem4";
-            this.modificarToolStripMenuItem4.Size = new System.Drawing.Size(152, 22);
+            this.modificarToolStripMenuItem4.Size = new System.Drawing.Size(125, 22);
             this.modificarToolStripMenuItem4.Text = "Modificar";
             // 
             // imprimirToolStripMenuItem
             // 
             this.imprimirToolStripMenuItem.Name = "imprimirToolStripMenuItem";
-            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.imprimirToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.imprimirToolStripMenuItem.Text = "Imprimir";
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.evaluaciónToolStripMenuItem,
+            this.examenDeLaboratotioToolStripMenuItem});
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(67, 20);
+            this.toolStripMenuItem1.Text = "Rutinario";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // evaluaciónToolStripMenuItem
+            // 
+            this.evaluaciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ingresarToolStripMenuItem,
+            this.buscarToolStripMenuItem1});
+            this.evaluaciónToolStripMenuItem.Name = "evaluaciónToolStripMenuItem";
+            this.evaluaciónToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.evaluaciónToolStripMenuItem.Text = "Evaluación";
+            this.evaluaciónToolStripMenuItem.Click += new System.EventHandler(this.evaluaciónToolStripMenuItem_Click);
+            // 
+            // ingresarToolStripMenuItem
+            // 
+            this.ingresarToolStripMenuItem.Name = "ingresarToolStripMenuItem";
+            this.ingresarToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.ingresarToolStripMenuItem.Text = "Ingresar";
+            this.ingresarToolStripMenuItem.Click += new System.EventHandler(this.ingresarToolStripMenuItem_Click);
+            // 
+            // buscarToolStripMenuItem1
+            // 
+            this.buscarToolStripMenuItem1.Name = "buscarToolStripMenuItem1";
+            this.buscarToolStripMenuItem1.Size = new System.Drawing.Size(116, 22);
+            this.buscarToolStripMenuItem1.Text = "Buscar";
+            // 
+            // examenDeLaboratotioToolStripMenuItem
+            // 
+            this.examenDeLaboratotioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ingresarToolStripMenuItem1,
+            this.buscarToolStripMenuItem2});
+            this.examenDeLaboratotioToolStripMenuItem.Name = "examenDeLaboratotioToolStripMenuItem";
+            this.examenDeLaboratotioToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.examenDeLaboratotioToolStripMenuItem.Text = "Examen de Laboratotio";
+            // 
+            // ingresarToolStripMenuItem1
+            // 
+            this.ingresarToolStripMenuItem1.Name = "ingresarToolStripMenuItem1";
+            this.ingresarToolStripMenuItem1.Size = new System.Drawing.Size(116, 22);
+            this.ingresarToolStripMenuItem1.Text = "Ingresar";
+            this.ingresarToolStripMenuItem1.Click += new System.EventHandler(this.ingresarToolStripMenuItem1_Click);
+            // 
+            // buscarToolStripMenuItem2
+            // 
+            this.buscarToolStripMenuItem2.Name = "buscarToolStripMenuItem2";
+            this.buscarToolStripMenuItem2.Size = new System.Drawing.Size(116, 22);
+            this.buscarToolStripMenuItem2.Text = "Buscar";
             // 
             // laboratoriosToolStripMenuItem
             // 
@@ -239,6 +301,7 @@
             this.registrarToolStripMenuItem4.Name = "registrarToolStripMenuItem4";
             this.registrarToolStripMenuItem4.Size = new System.Drawing.Size(125, 22);
             this.registrarToolStripMenuItem4.Text = "Registrar";
+            this.registrarToolStripMenuItem4.Click += new System.EventHandler(this.registrarToolStripMenuItem4_Click);
             // 
             // buscarToolStripMenuItem5
             // 
@@ -258,37 +321,27 @@
             this.eliminarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.eliminarToolStripMenuItem.Text = "Eliminar";
             // 
-            // toolStripMenuItem1
+            // libroDiarioToolStripMenuItem
             // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.evaluaciónToolStripMenuItem,
-            this.examenDeLaboratotioToolStripMenuItem});
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(67, 20);
-            this.toolStripMenuItem1.Text = "Rutinario";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            this.libroDiarioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.notaToolStripMenuItem,
+            this.verNotasToolStripMenuItem});
+            this.libroDiarioToolStripMenuItem.Name = "libroDiarioToolStripMenuItem";
+            this.libroDiarioToolStripMenuItem.Size = new System.Drawing.Size(80, 20);
+            this.libroDiarioToolStripMenuItem.Text = "Libro Diario";
             // 
-            // evaluaciónToolStripMenuItem
+            // notaToolStripMenuItem
             // 
-            this.evaluaciónToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ingresarToolStripMenuItem});
-            this.evaluaciónToolStripMenuItem.Name = "evaluaciónToolStripMenuItem";
-            this.evaluaciónToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.evaluaciónToolStripMenuItem.Text = "Evaluación";
-            this.evaluaciónToolStripMenuItem.Click += new System.EventHandler(this.evaluaciónToolStripMenuItem_Click);
+            this.notaToolStripMenuItem.Name = "notaToolStripMenuItem";
+            this.notaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.notaToolStripMenuItem.Text = "Nota";
+            this.notaToolStripMenuItem.Click += new System.EventHandler(this.notaToolStripMenuItem_Click);
             // 
-            // examenDeLaboratotioToolStripMenuItem
+            // verNotasToolStripMenuItem
             // 
-            this.examenDeLaboratotioToolStripMenuItem.Name = "examenDeLaboratotioToolStripMenuItem";
-            this.examenDeLaboratotioToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.examenDeLaboratotioToolStripMenuItem.Text = "Examen de Laboratotio";
-            // 
-            // ingresarToolStripMenuItem
-            // 
-            this.ingresarToolStripMenuItem.Name = "ingresarToolStripMenuItem";
-            this.ingresarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.ingresarToolStripMenuItem.Text = "Ingresar";
-            this.ingresarToolStripMenuItem.Click += new System.EventHandler(this.ingresarToolStripMenuItem_Click);
+            this.verNotasToolStripMenuItem.Name = "verNotasToolStripMenuItem";
+            this.verNotasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.verNotasToolStripMenuItem.Text = "Ver Notas";
             // 
             // Inicio
             // 
@@ -301,6 +354,7 @@
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
             this.Name = "Inicio";
             this.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -342,5 +396,11 @@
         private System.Windows.Forms.ToolStripMenuItem evaluaciónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem examenDeLaboratotioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ingresarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem libroDiarioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem notaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verNotasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem buscarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem ingresarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem buscarToolStripMenuItem2;
     }
 }

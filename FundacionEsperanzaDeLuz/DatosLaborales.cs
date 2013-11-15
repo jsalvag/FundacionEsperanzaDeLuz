@@ -17,6 +17,17 @@ namespace FundacionEsperanzaDeLuz
             InitializeComponent();
         }
 
+        public void Limpiar()
+        {
+            grado_cbx.Text = "";
+            institucion_txt.Clear();
+            titulo_txt.Clear();
+            expe_txt.Clear();
+            cursos_txt.Clear();
+            fIngreso_dtp.Value = DateTime.Now;
+            cargo_cbx.Text = "";
+        }
+
         private void label3_Click(object sender, EventArgs e)
         {
 
@@ -25,6 +36,11 @@ namespace FundacionEsperanzaDeLuz
         private void registrar_btn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void DatosLaborales_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

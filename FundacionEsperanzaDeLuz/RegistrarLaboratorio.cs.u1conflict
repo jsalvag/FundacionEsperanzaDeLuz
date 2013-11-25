@@ -16,5 +16,10 @@ namespace FundacionEsperanzaDeLuz
         {
             InitializeComponent();
         }
+
+        private void guardarLaboratorio_btn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

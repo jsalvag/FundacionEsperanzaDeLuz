@@ -110,7 +110,7 @@
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(96, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -333,14 +333,14 @@
             // notaToolStripMenuItem
             // 
             this.notaToolStripMenuItem.Name = "notaToolStripMenuItem";
-            this.notaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.notaToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.notaToolStripMenuItem.Text = "Nota";
             this.notaToolStripMenuItem.Click += new System.EventHandler(this.notaToolStripMenuItem_Click);
             // 
             // verNotasToolStripMenuItem
             // 
             this.verNotasToolStripMenuItem.Name = "verNotasToolStripMenuItem";
-            this.verNotasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.verNotasToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
             this.verNotasToolStripMenuItem.Text = "Ver Notas";
             // 
             // Inicio

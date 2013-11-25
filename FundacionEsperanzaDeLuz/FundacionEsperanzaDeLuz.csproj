@@ -107,6 +107,12 @@
     <Compile Include="RegistrarLaboratorio.Designer.cs">
       <DependentUpon>RegistrarLaboratorio.cs</DependentUpon>
     </Compile>
+    <Compile Include="VerHistoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VerHistoria.Designer.cs">
+      <DependentUpon>VerHistoria.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CrearHistoria.resx">
       <DependentUpon>CrearHistoria.cs</DependentUpon>
     </EmbeddedResource>
@@ -145,6 +151,9 @@
     </Compile>
     <EmbeddedResource Include="RegistrarLaboratorio.resx">
       <DependentUpon>RegistrarLaboratorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VerHistoria.resx">
+      <DependentUpon>VerHistoria.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -11,4 +11,14 @@ namespace FundacionEsperanzaDeLuz
     {
         
     }
+    public class Manejador
+    {
+        OleDbConnection CONEX;
+
+        public conectar()
+        {
+            CONEX = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0; Data Source = .\\FELDB.accdb");
+            initializeComponet();
+        }
+    }
 }

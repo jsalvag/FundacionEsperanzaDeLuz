@@ -69,6 +69,11 @@
     <Compile Include="ExamenRutinario.Designer.cs">
       <DependentUpon>ExamenRutinario.cs</DependentUpon>
     </Compile>
+    <Compile Include="FELDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FELDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Notas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,12 +111,6 @@
     </Compile>
     <Compile Include="RegistrarLaboratorio.Designer.cs">
       <DependentUpon>RegistrarLaboratorio.cs</DependentUpon>
-    </Compile>
-    <Compile Include="VerHistoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VerHistoria.Designer.cs">
-      <DependentUpon>VerHistoria.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="CrearHistoria.resx">
       <DependentUpon>CrearHistoria.cs</DependentUpon>
@@ -152,9 +151,17 @@
     <EmbeddedResource Include="RegistrarLaboratorio.resx">
       <DependentUpon>RegistrarLaboratorio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VerHistoria.resx">
-      <DependentUpon>VerHistoria.cs</DependentUpon>
-    </EmbeddedResource>
+    <None Include="FELDBDataSet.xsc">
+      <DependentUpon>FELDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="FELDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>FELDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="FELDBDataSet.xss">
+      <DependentUpon>FELDBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -128,11 +128,5 @@ namespace FundacionEsperanzaDeLuz
             Notas vntNota = new Notas();
             vntNota.ShowDialog();
         }
-
-        private void modificarToolStripMenuItem4_Click(object sender, EventArgs e)
-        {
-            VerHistoria vntModHistoria = new VerHistoria();
-            vntModHistoria.ShowDialog();
-        }
     }
 }
